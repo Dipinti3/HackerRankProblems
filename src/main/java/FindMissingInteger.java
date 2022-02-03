@@ -2,7 +2,7 @@ public class FindMissingInteger {
     // Driver code
     public static void main(String[] args)
     {
-        int A[] = { 1,2,3 };
+        int A[] = { 1,2,3,4,5};
         int missing = findMissing(A);
         System.out.println("The smallest positive missing number is " + missing);
     }
